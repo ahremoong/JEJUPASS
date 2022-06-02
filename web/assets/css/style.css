@@ -13,7 +13,7 @@
 #wrapper #wrap{}
 #wrapper #wrap .container{}
 #wrapper #wrap .container .section{}
-#wrapper #wrap .container .section .cont_wrap {min-width: 1420px;max-width: 1420px;margin: 0 auto;}
+#wrapper #wrap .container .section .cont_wrap {min-width: 1420px;margin: 0 auto;}
 
 #sec01{}
 #sec01 .cont_wrap{}
@@ -37,9 +37,11 @@
 #sec02 .cont_wrap .tab_box .airport_box .user_num li{}
 
 #sec03{}
-#sec03 .cont_wrap{}
+#sec03 .cont_wrap{position: relative;}
 #sec03 .cont_wrap .main_box{}
-#sec03 .cont_wrap .main_box .title_box{}
+#sec03 .cont_wrap .main_box .title_box{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);
+text-align: center;color: #FFFFFF;z-index: 999;}
 #sec03 .cont_wrap .main_box .title_box .title_img{width: 318px;height: 40px;}
-
+#sec03 .cont_wrap .main_box .title_box .btn{display: block;color: #FFFFFF;}
+#sec03 .cont_wrap .main_box .main_video{width: 100%;height: 100%;z-index: -1;}
 

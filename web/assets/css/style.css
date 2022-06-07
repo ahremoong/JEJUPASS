@@ -27,7 +27,7 @@
 #sec02 .cont_wrap{}
 #sec02 .cont_wrap .tab_box{}
 #sec02 .cont_wrap .tab_box .airport_box{display: flex;justify-content: space-between;align-items: center;}
-#sec02 .cont_wrap .tab_box .airport_box ul{border: 1px solid #63a1ff;border-radius: 10px;}
+#sec02 .cont_wrap .tab_box .airport_box ul{border: 1px solid #63a1ff;border-radius: 10px;height:94px;padding: 25px 23px;}
 #sec02 .cont_wrap .tab_box .airport_box ul li{}
 #sec02 .cont_wrap .tab_box .airport_box .start_end_box{display: flex;justify-content: space-between;align-items: center; width: 478px;}
 #sec02 .cont_wrap .tab_box .airport_box .start_end_box li{}

@@ -39,9 +39,13 @@ text-align: center;color: #FFFFFF;z-index: 999;}
 .main #sec03 .cont_wrap .main_box .main_video{width: 100%;height: 100%;z-index: -1;}
 
 .login .sec01{}
-.login .sec01 input[type="text"]{display: block;width: 300px;height:50px; border: 1px solid #c5c5c5;border-radius: 5px;}
+.login .sec01 .login_cont{width: 560px;margin: 0 auto;padding-top: 100px;}
+.login .sec01 .login_cont .check_box{margin: 25px 0;}
+.login .sec01 .login_cont .button_box{text-align: center;}
+.login .sec01 input[type="text"]{display: block;width: 100%;height:50px; border: 1px solid #c5c5c5;border-radius: 5px;}
+.login .sec01 input[type="text"] + label{font-size: 1.4em;}
 .login .sec01 input[type="checkbox"]{width: 20px;height: 20px; border: 1px solid #c5c5c5;}
-
+.login .login_btn{display:block; width: 560px;height: 56px;font-size: 1.8rem; color: #FFFFFF;text-align: center;line-height: 56px;background: #2f7bf2;border-radius: 10px;}
 
 
 

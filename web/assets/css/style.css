@@ -41,11 +41,12 @@ text-align: center;color: #FFFFFF;z-index: 999;}
 .login .sec01{}
 .login .sec01 .login_cont{width: 560px;margin: 0 auto;padding-top: 100px;}
 .login .sec01 .login_cont .id_box{margin:0 0 25px;}
-.login .sec01 .login_cont .check_box{margin: 25px 0;}
+.login .sec01 .login_cont .check_box{display: flex;align-items: center; margin: 25px 0;}
 .login .sec01 .login_cont .button_box{text-align: center;}
 .login .sec01 input[type="text"]{display: block;width: 100%;height:50px;padding-left: 15px; border: 1px solid #c5c5c5;border-radius: 5px;}
-.login .sec01 input[type="text"] + label{font-size: 1.4em;}
-.login .sec01 input[type="checkbox"]{width: 20px;height: 20px; border: 1px solid #c5c5c5;}
+.login .sec01 label{font-size: 0.4rem;}
+.login .sec01 input[type="checkbox"]{width: 20px;height: 20px; border: 1px solid #c5c5c5;margin-right: 5px;}
+.login .sec01 input[type="checkbox"]:checked{width: 20px;height: 20px; border: 1px solid #c5c5c5;background: #63a1ff;}
 .login .login_btn{display:block; width: 560px;height: 56px;margin-bottom: 25px; font-size: 1.8rem; color: #FFFFFF;text-align: center;line-height: 56px;background: #2f7bf2;border-radius: 10px;}
 
 

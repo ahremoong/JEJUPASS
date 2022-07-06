@@ -27,20 +27,27 @@
                             <div class="id_box">
                                 <label for="user_id">아이디(이메일)</label>
                                 <div class="id_check_box">
-                                    <input type="text" id="user_id">
-                                    <button>중복확인</button>
+                                    <input type="text" id="user_id" placeholder="example@jejupass.com">
+                                    <button class="overlap_btn">중복확인</button>
                                 </div>
-                                <p>이메일 형식이 맞지 않습니다. 다시 입력해 주세요.</p> <!--형식이 맞지않을 때 나타남-->
+                                <p class="red_text">이메일 형식이 맞지 않습니다. 다시 입력해 주세요.</p> <!--형식이 맞지않을 때 나타남-->
                             </div>
                             <div class="password_box">
-                                <label for="user_password">아이디(이메일)</label>
+                                <label for="user_password">비밀번호</label>
                                 <div class="password_check_box">
-                                    <input type="password" id="user_password">
+                                    <input type="password" id="user_password" maxlength="16" placeholder="영문, 숫자, 특수문자 8~16자 이내">
                                 </div>
-                                <p>입력하신 비밀번호는 올바른 형식이 아닙니다.</p> <!--형식이 맞지않을 때 나타남-->
+                                <p class="red_text">입력하신 비밀번호는 올바른 형식이 아닙니다.</p> <!--형식이 맞지않을 때 나타남-->
+                            </div>
+                            <div class="password_box_2">
+                                <label for="user_password_2">비밀번호 확인</label>
+                                <div class="password_check_box_2">
+                                    <input type="password" id="user_password_2" placeholder="확인을 위해 한번 더 입력해주세요.">
+                                </div>
+                                <p class="red_text">입력하신 비밀번호는 일치하지 않습니다.</p> <!--형식이 맞지않을 때 나타남-->
                             </div>
                             <div class="name_box">
-                                <label for="user_name">아이디(이메일)</label>
+                                <label for="user_name">이름</label>
                                 <div class="name_check_box">
                                     <input type="text" id="user_name">
                                 </div>
@@ -60,13 +67,13 @@
                                 </div>
                             </div>
                             <div class="sex_box">
-                                <label for="user_sex">휴대폰번호</label>
+                                <label for="user_sex">성별</label>
                                 <div class="sex_check_box">
-                                    <div>
+                                    <div class="sel_box">
                                         <input type="radio" id="man" name="radSex">
                                         <label for="man">남자</label>
                                     </div>
-                                    <div>
+                                    <div class="sel_box">
                                         <input type="radio" id="woman" name="radSex">
                                         <label for="woman">여자</label>
                                     </div>

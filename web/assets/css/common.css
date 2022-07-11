@@ -1,6 +1,6 @@
 .logo{width: 140px;height: auto;}
 
-#header{position: fixed; display:flex;justify-content: space-between;align-items: center;width: 100%; padding: 0 50px;}
+#header{position: fixed; display:flex;justify-content: space-between;align-items: center;width: 100%; padding: 0 50px;background: #F8F8F8;}
 #header .logo{}
 #header .nav{}
 #header .nav ul{}
@@ -8,6 +8,10 @@
 #header .nav ul .search{}
 #header .user_btn_box{}
 #header .user_btn_box .user_btn p{display: inline-block;text-align: center;}
+#header .user_btn_box .user_btn p a{}
+#header .user_btn_box .user_btn p a::before{display: inline-block;content: '';width: 12px;height: 12px;}
+#header .user_btn_box .user_btn p a.go_login::before{background:url('../image/enter_icon.png')no-repeat center center;background-size:100% 100%;}
+#header .user_btn_box .user_btn p a.go_order::before{background:url('../image/pas_icon.png')no-repeat center center;background-size:100% 100%;}
 
 
 #footerTop{display: flex;justify-content: space-evenly;align-items: flex-start;border: 1px solid #c5c5c5; padding: 45px 0 60px;}
@@ -24,7 +28,7 @@
 #footerTop .down_box .down_btn{display: flex;justify-content: space-around;align-items: center;}
 #footerTop .down_box .down_btn button{width: 147px;height: 40px;border: 1px solid #c5c5c5;border-radius: 5px;}
 
-#footer{padding:60px 72px 0 72px;color: #FFFFFF;  background: #18225c;}
+#footer{padding:60px 72px;color: #FFFFFF;  background: #18225c;}
 #footer p a{color: #FFFFFF;}
 #footer .title{}
 #footer .title p{}

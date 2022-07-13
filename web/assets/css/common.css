@@ -33,3 +33,13 @@
 #footer .title{}
 #footer .title p{}
 #footer .title span{}
+
+/* 공통 */
+#popupLayer{position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 99;}
+#popupLayer .dim{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.7);overflow: hidden;}
+#popupLayer .pop_box{position: absolute;left: 50%;width: 가로사이즈;margin-left: -가로사이즈/2;}
+#popupLayer .pop_box .pop_closed{position: absolute;top: 12.85px;right: 12.85px;width: 17.67px;height: 17.67px;z-index: 1;}
+
+/* 팝업 content */
+#popupLayer #pop01{width: ;height: ;background:url('배경') no-repeat top center;background-size:100% 100%;}
+#popupLayer #pop01 .pop_cont{position:relative;width:100%;}

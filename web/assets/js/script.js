@@ -16,7 +16,7 @@ $(document).ready(function(){
         var calendarE2 = document.getElementById('calendar1');
         // full-calendar 생성하기 
         var calendar = new FullCalendar.Calendar(calendarEl, {        
-            height: '700px', // calendar 높이 설정        
+            height: '500px', // calendar 높이 설정        
             expandRows: true, // 화면에 맞게 높이 재설정
             slotMinTime: '08:00', // Day 캘린더에서 시작 시간        
             slotMaxTime: '20:00', // Day 캘린더에서 종료 시간        
@@ -213,7 +213,7 @@ $(document).ready(function(){
         });      
         // 캘린더 랜더링      
         calendar.render();
-        calendar1.render();
+        //calendar1.render();
     })
 
     $(document).on('click','.login_btn',function(){

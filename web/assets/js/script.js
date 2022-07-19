@@ -1,3 +1,14 @@
+function popOn(){
+    $('#pop01').css({
+        'top':(($(window).height()-$('#pop01').outerHeight())/2+$(window).scrollTop())+'px'
+        // pop01이 position: absolute 일때
+        //,'left':(($(window).width()-$('#pop01').outerWidth())/2+$(window).scrollLeft())+'px'
+    }); 
+    $('#popupLayer, .pop_box').fadeIn(300);
+};
+function popClose(){
+    $('#popupLayer, .pop_box').fadeOut(300);
+}
 $(document).ready(function(){
     $('.go_day li button').on('click',function(){
         // calendar element 취득
@@ -203,5 +214,12 @@ $(document).ready(function(){
         // 캘린더 랜더링      
         calendar.render();
         calendar1.render();
+    })
+
+    $(document).on('click','.login_btn',function(){
+        popOn();
+    })
+    $(document).on('click','.close_btn',function(){
+        popClose();
     })
 })//

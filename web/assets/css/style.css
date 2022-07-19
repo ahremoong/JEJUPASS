@@ -93,3 +93,17 @@ text-align: center;color: #FFFFFF;z-index: 999;}
 #wrapper #wrap.join .overlap_btn{width: 75px;border: 1px solid #2f7bf2;border-radius: 5px;height: 45px;}
 #wrapper #wrap.join .btd_check_box{}
 #wrapper #wrap.join .btd_check_box input{width: 32.9%;}
+
+
+/* 공통 */
+#popupLayer{position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 99;}
+#popupLayer .dim{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.7);overflow: hidden;}
+#popupLayer .pop_box{position: absolute;left: 50%;width: 340px;margin-left: -170px;}
+#popupLayer .pop_box .pop_closed{position: absolute;top: 12.85px;right: 12.85px;width: 17.67px;height: 17.67px;z-index: 1;}
+
+/* 팝업 content */
+#popupLayer #pop01{width: 340px;height: auto;background: #FFFFFF;text-align: center;border-radius: 20px;padding: 20px;
+ /* background:url('배경') no-repeat top center;background-size:100% 100%; */}
+#popupLayer #pop01 .pop_cont{position:relative;width:100%;}
+#popupLayer #pop01 .pop_cont .text{margin: 10px 0 30px;color: #606060;}
+#popupLayer #pop01 .pop_cont button{width:100%;background: #569aff;color: #FFFFFF;line-height: 35px;font-weight: 600;border-radius: 10px;}
